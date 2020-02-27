@@ -44,13 +44,14 @@ function App() {
             </div>
             <h4 class="sub-head1">Click Configure</h4>
             <div class="curve"></div>
-
-            <button class="btn btn-success">Configure <i class="fas fa-arrow-right"></i></button>
+            <a  href="#tab1">
+              <button class="btn btn-success">Configure <i class="fas fa-arrow-right"></i></button>
+            </a>
           </div>
         </div>
       </section>
 
-      <section class="page1">
+      <section class="page1" id="tab1">
         <div class="row">
           <div class="col-md-3">
             <div class="side-bar1">
@@ -145,12 +146,14 @@ function App() {
                 </div>
               </div>
             </div>
-            <button class="btn btn-success btn1">Next <i class="fa fa-arrow-right"></i></button>
+            <a  href="#tab3">
+              <button class="btn btn-success btn1">Next <i class="fa fa-arrow-right"></i></button>
+            </a>
           </div>
         </div>
       </section>
 
-      <section class="page4">
+      <section class="page4" id="tab3">
         <div class="row">
           <div class="col-md-3">
             <div class="side-bar4">
